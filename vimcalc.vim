@@ -1,7 +1,7 @@
 
-vnoremap ;c "ey:call vimcalc()<CR>
+vnoremap ;c "ey:call Vimcalc()<CR>
 
-function! vimcalc()
+function! Vimcalc()
   let has_equal = 0
   let has_replace = 0
 
